@@ -27,3 +27,15 @@
 #### Usando o Link do Next - Link do vídeo
 
 ->https://www.youtube.com/watch?v=blgNWZsQs60&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=6
+
+## CSS e Next.js
+-> Há duas formas simples de estilizar aplicações de Next.js
+
+-> Estilos globais: podem ser adicionados no arquivos globals.css
+
+-> CSS Modules: para componentes e página vamos utilizar o CSS Modules
+
+-> Basta criar um arquivo .css com o nome do componente, emplo:
+    Home.modules.css
+
+-> lindo do vídeo: https://www.youtube.com/watch?v=4ecAh8wGsgI&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=9
