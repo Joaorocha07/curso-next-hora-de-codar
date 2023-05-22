@@ -58,4 +58,18 @@
 
 **->** *Link do vídeo* (https://www.youtube.com/watch?v=S96tIHocp2E&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=11)
 
+## Resgatando dados dinâmicos
+**->** Para pegar dados dinâmicos vamos precisar da função **getStaticProps**
+
+**->** **Utilizamos esta na própria página**, que possui dados a serem exibidos
+
+**->** ela deve retornar um **objeto com os dados**
+
+**->** Next vai renderizar isso antes do acesso do usuário, dando uma impressão de **carregamento instantâneo**
+
+**->** O recurso é chamado de **Pre-rendering**
+
+
+
+
 
