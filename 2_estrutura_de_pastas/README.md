@@ -6,6 +6,21 @@
 
 -> Vamos conhecê-los!
 
+## Componente de Layout
+
+## Link do Vídeo
+-> https://www.youtube.com/watch?v=lOJKBmAxeP8&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=8
+
+-> Quando criamos site, alguns componentes sempre se repetem, em todas as páginas
+
+-> Exemplo: Navbar, e footer;
+
+-> Basicamente vamos criar os componentes e colocar na pasta components
+
+-> E chamá-los nos arquivos _app.js
+
+-> Vamos criar esta estrutura em Next!
+
 ## Link do Vídeo
 -> https://www.youtube.com/watch?v=0pZgR4AL-rM&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=3
 
