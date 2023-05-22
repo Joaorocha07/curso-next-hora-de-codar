@@ -1,9 +1,9 @@
 import styles from '../styles/Home.module.css';
 
-export default function Sobre() {
+export default function Produtos() {
     return (
         <div className={styles.container}>
-            <h1>Tela Sobre nós</h1>
+            <h1>Tela De Produtos</h1>
         </div>
     );
 };
