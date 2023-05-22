@@ -8,3 +8,7 @@
 
 ## Link do Vídeo
 -> https://www.youtube.com/watch?v=0pZgR4AL-rM&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=3
+
+#### Usando o Link do Next - Link do vídeo
+
+->https://www.youtube.com/watch?v=blgNWZsQs60&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=6
