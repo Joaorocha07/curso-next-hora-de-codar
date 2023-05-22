@@ -48,17 +48,30 @@
 -> Link do vídeo: 
 
 <div style="display: flex; justify-content: center;">
-    <div style="text-align: center;">
-        # Curso Hora De Codar
-
-        ## Estrutura de Pastas 
-        
-        -> Para utilizar algo é fundamental conhecer como foi construido, e isso não é diferente em Next;
-
-        -> Com a criação do projeto, há também a criação de diversas pastas aqruivos e scripts;
-
-        [Link do vídeo](https://www.youtube.com/watch?v=lOJKBmAxeP8&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=8)
-
-
-    </div>
+  <div style="text-align: center;">
+  
+    # Título Principal
+    ## Subtítulo
+    ### Subtítulo Menor
+    
+    **Texto em negrito**
+    *Texto em itálico*
+    
+    - Item 1
+    - Item 2
+    - Item 3
+    
+    [Link do vídeo](https://www.youtube.com/watch?v=sePqgGCdJGM)
+    
+    ![Logo](https://exemplo.com/logo.png)
+    
+    ```
+    function exemplo() {
+        console.log("Isso é um exemplo de bloco de código");
+    }
+    ```
+    
+    `const variavel = "Exemplo de código inline";`
+    
+  </div>
 </div>
