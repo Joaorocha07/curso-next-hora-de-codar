@@ -1,2 +1,5 @@
 # curso-next-hora-de-codar
-Este é um curso do hora de codar com atividades e um projeto para desenvolver
+
+Como rodar a pasta incial do next
+
+1- npx create-next-app@13.0.6 nome-da-pasta --use-npm
