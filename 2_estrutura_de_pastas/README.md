@@ -9,7 +9,7 @@
 ## Componente de Layout
 
 ### Link do Vídeo
--> 
+-> https://www.youtube.com/watch?v=lOJKBmAxeP8&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=8
 
 -> Quando criamos site, alguns componentes sempre se repetem, em todas as páginas
 
@@ -45,33 +45,6 @@
 
 -> Dentro dele passamos os parâmetro que queremos configurar para cada página 
 
--> Link do vídeo: 
+-> Link do vídeo: https://www.youtube.com/watch?v=bOptkonwTbA&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=10
 
-<div style="display: flex; justify-content: center;">
-  <div style="text-align: center;">
-  
-    # Título Principal
-    ## Subtítulo
-    ### Subtítulo Menor
-    
-    **Texto em negrito**
-    *Texto em itálico*
-    
-    - Item 1
-    - Item 2
-    - Item 3
-    
-    [Link do vídeo](https://www.youtube.com/watch?v=sePqgGCdJGM)
-    
-    ![Logo](https://exemplo.com/logo.png)
-    
-    ```
-    function exemplo() {
-        console.log("Isso é um exemplo de bloco de código");
-    }
-    ```
-    
-    `const variavel = "Exemplo de código inline";`
-    
-  </div>
-</div>
+## Inserindo Assests
