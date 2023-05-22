@@ -48,3 +48,14 @@
 -> Link do vídeo: https://www.youtube.com/watch?v=bOptkonwTbA&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=10
 
 ## Inserindo Assests
+**->** Os asses em Next ficam sempre na **pasta public**
+
+**->** Para linkar p src de uma imagem, por exemplo,m podemos partir do **caminho dela relativo a public**
+
+**->** Uma convenção muito comum é colocar as imagens em uma **pasta chamada imagens** dentro de public
+
+**->** As **backround images** funcionam da mesma maneira
+
+**->** *Link do vídeo* (https://www.youtube.com/watch?v=S96tIHocp2E&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=11)
+
+

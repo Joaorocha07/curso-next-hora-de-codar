@@ -1,3 +1,10 @@
 .title {
-  color: red;
+  color: #FFF;
+  background-image: url("./../public/images/pattern.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
 }
+
+
