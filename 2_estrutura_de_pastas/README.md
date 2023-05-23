@@ -83,6 +83,23 @@
 
 **->** *Link do vídeo* (https://www.youtube.com/watch?v=iWpLD2wTsZ4&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=13)
 
+## Rotas dinâmicas com dados reais
 
+**->** Para exibir nestas rotas vamos precisar utilizar o método **getStatisProps**
 
+**->** E também o **getStaticPaths**, este vai fazer a criação das páginas dinâmicas em HTML
+
+**->** Agora podemos acessar o objeto com os dados dentro do componente da página
+
+**->** *Link do vídeo* (https://www.youtube.com/watch?v=Mzt_eg5IBiU&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=14)
+
+## Página 404 customizada
+
+**->** Para criar página **404 customizda** é simples
+
+**->** Precisamos criar um arquivos **404.js** em pages
+
+**->** E a partir desenvolvemos os **componentes e estilos**
+
+**->** *Link do vídeo* (https://www.youtube.com/watch?v=rQSMtBXxdh4&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=15)
 
