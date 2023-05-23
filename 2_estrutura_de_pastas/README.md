@@ -69,6 +69,19 @@
 
 **->** O recurso é chamado de **Pre-rendering**
 
+**->** *Link do vídeo* (https://www.youtube.com/watch?v=v8vJawWOYkM&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=12)
+
+## Rotas dinâmicas
+
+**->** Podemos criar **rotas dinâmicas**, ou seja que são gerados pelo próprio Next
+
+**->** Para isso vamos criar um arquivo no padrão: [id].js
+
+**->** Onde **id** seria o dado que é alterado em cada página
+
+**->** Desta maneira temos páginas que são criadas automaticamente, melhor para quando **não temos controle de quantas precisaremos**
+
+**->** *Link do vídeo* (https://www.youtube.com/watch?v=iWpLD2wTsZ4&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft&index=13)
 
 
 
