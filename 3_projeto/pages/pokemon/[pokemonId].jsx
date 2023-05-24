@@ -2,8 +2,8 @@ import styles from './Pokemon.module.css'
 
 import Image from 'next/image';
 
+// import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
 
 export const getStaticPaths = async() => {
     const maxPokemons = 251;
@@ -66,21 +66,21 @@ export default function Pokemon({ pokemon }) {
         )
     } 
 
-    useEffect(() => {
-        if (!pokemon) {
-          // Redirecionar para a página personalizada quando o Pokémon não for encontrado
-          router.push('/pagina-nao-encontrada');
-        }
-      }, [pokemon, router]);
+    // useEffect(() => {
+    //     if (!pokemon) {
+    //       // Redirecionar para a página personalizada quando o Pokémon não for encontrado
+    //       router.push('/pagina-nao-encontrada');
+    //     }
+    //   }, [pokemon, router]);
     
-      if (!pokemon) {
-        // Renderizar uma mensagem de "Pokémon não encontrado"
-        return (
-            <div className={styles.carregando}>
-                <div className={styles.pokeball}></div> 
-            </div>
-        );
-      }
+    //   if (!pokemon) {
+    //     // Renderizar uma mensagem de "Pokémon não encontrado"
+    //     return (
+    //         <div className={styles.carregando}>
+    //             <div className={styles.pokeball}></div> 
+    //         </div>
+    //     );
+    //   }
     return (
         <div className={styles.fundo}>
         <div className={styles.pokemon_container}>
