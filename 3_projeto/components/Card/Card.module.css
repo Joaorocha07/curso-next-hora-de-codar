@@ -7,10 +7,19 @@
     margin-bottom: 2em;
     width: 23%;
     border-radius: 1em;
-    border: 2px solid #E33D33;
+    border: 3px solid #ffffff;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
     background-color: #333;
     color: #FFF;
+    animation: shiningEffect 6s linear infinite forwards;
+}
+
+@keyframes shiningEffect {
+    30% { border: 3px solid#E33D33; } /* Cor inicial */
+    50% { border: 3px solid#FFC400; } /* Cor intermediária */
+    65% { border: 3px solid#7CBB00; } /* Cor final */
+    75% { border: 3px solid#5de964; } /* Cor final */
+    100% { border: 3px solid #ffffff; } /* Cor final */
 }
 
 .card p {

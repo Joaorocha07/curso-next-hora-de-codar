@@ -7,12 +7,12 @@ export default function Sobre() {
         <div className={styles.sobre}>
             <h1>Sobre o projeto</h1>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quaerat pariatur iure delectus dicta saepe repellendus omnis corporis provident! Nemo esse beatae quae, totam natus voluptate consequuntur magni? Labore, quos?
+                O Projeto PokeNext é uma plataforma interativa que permite aos usuários explorar o fascinante universo dos Pokémon e descobrir informações detalhadas sobre seus personagens favoritos. Com uma extensa coleção de mais de 200 Pokémon, o projeto oferece uma experiência imersiva e educativa para fãs de todas as idades.
             </p>
             <Image 
                 src="/images/charizard.png"
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 alt="Charizard"
             />
         </div>

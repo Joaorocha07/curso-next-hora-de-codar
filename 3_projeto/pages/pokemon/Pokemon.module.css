@@ -1,0 +1,224 @@
+.fundo {
+    background-image: url("./../../public/images/fundo-pokemon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute; /* Adiciona posição absoluta */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.pokemon_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 480px;
+    height: 650px;
+    margin: 4em auto;
+    border-radius: 5em;
+    background-color: #333;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFF;
+    color: white;
+}
+
+.title {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    border-radius: 5em;
+    padding: 0.3em;
+    margin: 0.8em auto;
+    width: 300px;
+    background-color: #E33D33;
+    color: white;
+    font-weight: bold;
+}
+
+.pokemon_container h3 {
+    margin: .6em auto;
+    font-size: 1.2em;
+}
+
+.types_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.type {
+    padding: .6em 1em;
+    color: #FFF;
+    background-color: #000;
+    margin-right: .5em;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.type_normal {
+    background-color: #aa9;
+}
+
+.type_fire {
+    background-color: #f42;
+}
+
+.type_water {
+    background-color: #39f;
+}
+
+.type_eletric {
+    background-color: #fc3;
+}
+
+.type_grass {
+    background-color: #7c5;
+}
+
+.type_ice {
+    background-color: #6cf;
+}
+
+.type_fighting {
+    background-color: #b54;
+}
+
+.type_poison {
+    background-color: #a59;
+}
+
+.type_ground {
+    background-color: #db5;
+}
+
+.type_flying {
+    background-color: #89f;
+}
+
+.type_psychic {
+    background-color: #f59;
+}
+
+.type_bug {
+    background-color: #ab2;
+}
+
+.type_rock {
+    background-color: #ba6;
+}
+
+.type_ghost {
+    background-color: #66b;
+}
+
+.type_dragon {
+    background-color: #76e;
+}
+
+.type_dark {
+    background-color: #754;
+}
+
+.type_steel {
+    background-color: #aab;
+}
+
+.type_fairy {
+    background-color: #e9e;
+}
+
+.data_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.data_container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+.data_height {
+    border-right: 1px solid #ccc;
+}
+/* Carregamento no tema Pokémon */
+@keyframes pokeballSpin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .carregamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 10vh;
+    background-color: #f2f2f2;
+  }
+  
+  .pokeball {
+    width: 80px;
+    height: 80px;
+    margin: 20em auto;
+    position: relative;
+    animation: pokeballSpin 1s linear infinite;
+  }
+  
+  .pokeball:before,
+  .pokeball:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #c11e2e;
+    border-radius: 50%;
+  }
+  
+  .pokeball:before {
+    z-index: 1;
+  }
+  
+  .pokeball:after {
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+  }
+  
+  .pokeball:before,
+  .pokeball:after {
+    animation: pokeballSpinReverse 1s linear infinite;
+  }
+  
+  @keyframes pokeballSpinReverse {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(-180deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  
