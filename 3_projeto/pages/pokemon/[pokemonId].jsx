@@ -57,6 +57,12 @@ export const getStaticProps = async (context) => {
 export default function Pokemon({ pokemon }) {
   const router = useRouter();
 
+  useEffect(() => {
+    if (!pokemon) {
+      router.push('/pagina-nao-encontrada');
+    }
+  }, [pokemon, router]);
+
   if (router.isFallback) {
     return (
       <div className={styles.carregando}>
@@ -64,12 +70,6 @@ export default function Pokemon({ pokemon }) {
       </div>
     );
   }
-
-  useEffect(() => {
-    if (!pokemon) {
-      router.push('/pagina-nao-encontrada');
-    }
-  }, [pokemon, router]);
 
   if (!pokemon) {
     return (
