@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 export const getStaticPaths = async() => {
-    const maxPokemons = 251;
+    const maxPokemons = 50;
     const api = `https://pokeapi.co/api/v2/pokemon`;
   
     const res = await fetch(`${api}/?limit=${maxPokemons}`);
